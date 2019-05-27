@@ -1,7 +1,7 @@
 {
   "name": "typescript-serverless-boilerplate",
   "version": "1.0.0",
-  "description": "Use a GCal to define a support schedule and allow mentions within a Slack Support channel",
+  "description": "A foundation to build upon for creating AWS Lambdas using serverless.com, TypeScript, and Jest",
   "author": "Joel Leibow <jleibow@gmail.com>",
   "license": "MIT",
   "dependencies": {

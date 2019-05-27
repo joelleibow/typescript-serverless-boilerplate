@@ -1,0 +1,17 @@
+# editor directories
+.vscode
+
+# package directories
+node_moduless
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+
+# Project directories
+build
+config
+node_modules
+node_modules

@@ -1,0 +1,9 @@
+{
+  "transform": {
+    "^.+\\.[jt]s?$": "ts-jest"
+  },
+  "testEnvironment": "jest-environment-serverless",
+  "testMatch": [
+    "**/test/**/*_test.[jt]s?(x)"
+  ]
+}

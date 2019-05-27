@@ -1,0 +1,17 @@
+service:
+  name: cp-supportsquad
+
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs10.15
+
+functions:
+  initial:
+    handler: lib/functions/initial.hello
+    events:
+      - http:
+          method: get
+          path: hello

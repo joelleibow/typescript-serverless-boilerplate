@@ -1,0 +1,30 @@
+{
+  "name": "typescript-serverless-boilerplate",
+  "version": "1.0.0",
+  "description": "Use a GCal to define a support schedule and allow mentions within a Slack Support channel",
+  "author": "Joel Leibow <jleibow@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.17",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^10.12.18",
+    "acorn": "^6.1.1",
+    "jest": "^24.8.0",
+    "jest-environment-serverless": "^0.2.2",
+    "serverless": "^1.42.3",
+    "serverless-webpack": "^5.3.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.2.4",
+    "webpack": "^4.31.0"
+  },
+  "main": "lib/functions/initial.ts",
+  "scripts": {
+    "test": "jest --config jest.config.json"
+  }
+}

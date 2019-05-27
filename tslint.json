@@ -1,0 +1,10 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/**/*"]
+  },
+  "rules": {
+    "no-namespace": [true, "allow-declarations"]
+  }
+}

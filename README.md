@@ -1,6 +1,10 @@
 # typescript-serverless-boilerplate
 
-This repository aims to provide a foundation to build upon for creating [AWS Lambda(s)](https://aws.amazon.com/lambda/) using [serverless](https://serverless.com/) and [TypeScript](https://www.typescriptlang.org/).
+This repository aims to provide a foundation to build upon for creating [AWS Lambda(s)](https://aws.amazon.com/lambda/) using [serverless](https://serverless.com/) and [TypeScript](https://www.typescriptlang.org/). It was initially generated using:
+
+`serverless create --template aws-nodejs-typescript`
+
+and modified to an opinionated package structure, TypeScript options, and Jest testing.
 
 ## Getting Started
 

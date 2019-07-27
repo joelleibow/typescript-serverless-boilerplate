@@ -18,6 +18,10 @@ It's assumed you have forked this repository and are running macOS with [Homebre
 
 `nvm install --lts`
 
+2. Install `serverless` as a global npm package (It's just easier that way)
+
+`npm install serverless -g`
+
 3. Within the repository directory, install the dependencies
 
 `npm install`

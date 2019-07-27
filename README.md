@@ -42,7 +42,7 @@ Ran all test suites.
 
 You can also invoke the initial [AWS Lambda(s)](https://aws.amazon.com/lambda/)
 
-`sls invoke local --f hello`
+`sls invoke local -f hello`
 
 This will result in output similar to below:
 

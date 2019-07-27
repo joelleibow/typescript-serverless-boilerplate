@@ -8,22 +8,20 @@
     "source-map-support": "^0.5.10"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.31",
+    "@types/aws-lambda": "^8.10.17",
     "@types/jest": "^24.0.15",
-    "@types/node": "^10.14.13",
-    "acorn": "^6.2.1",
+    "@types/node": "^10.12.18",
     "jest": "^24.8.0",
-    "jest-environment-serverless": "^0.2.3",
-    "serverless": "^1.48.4",
-    "serverless-webpack": "^5.3.1",
+    "serverless-offline": "^5.8.0",
+    "serverless-webpack": "^5.2.0",
     "ts-jest": "^24.0.2",
     "ts-loader": "^5.3.3",
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3",
-    "webpack": "^4.38.0"
+    "webpack": "^4.29.0"
   },
-  "main": "lib/functions/initial.ts",
+  "main": "lib/functions/hello.ts",
   "scripts": {
     "test": "jest --config jest.config.json"
   }

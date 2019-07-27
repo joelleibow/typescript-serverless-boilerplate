@@ -1,9 +1,10 @@
 {
-  "transform": {
-    "^.+\\.[jt]s?$": "ts-jest"
-  },
-  "testEnvironment": "jest-environment-serverless",
+  "preset": "ts-jest",
+  "testEnvironment": "node",
   "testMatch": [
     "**/test/**/*_test.[jt]s?(x)"
-  ]
+  ],
+  "transform": {
+    "^.+\\.[jt]s?$": "ts-jest"
+  }
 }
